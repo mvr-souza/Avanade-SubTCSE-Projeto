@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Aggregates\EmployeeRole\Interfaces\Repositories\" />
+    <Folder Include="Aggregates\EmployeeRole\Interfaces\Services\" />
+    <Folder Include="Aggregates\EmployeeRole\Entities\" />
+    <Folder Include="Aggregates\EmployeeRole\Services\" />
+    <Folder Include="Aggregates\Employee\Interfaces\Repositories\" />
+    <Folder Include="Aggregates\Employee\ValueObjects\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="10.2.3" />
+  </ItemGroup>
+
+</Project>
