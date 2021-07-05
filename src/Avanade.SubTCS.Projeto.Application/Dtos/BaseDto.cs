@@ -2,6 +2,6 @@
 {
     public class BaseDto
     {
-        public int Identificador { get; set; }
+        public string Identificador { get; set; }
     }
 }
