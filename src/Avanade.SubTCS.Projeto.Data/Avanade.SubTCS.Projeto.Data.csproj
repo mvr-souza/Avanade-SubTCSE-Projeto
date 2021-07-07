@@ -5,11 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\EmployeeRole\" />
-    <Folder Include="Repositories\Employee\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Avanade.SubTCS.Projeto.Domain\Avanade.SubTCS.Projeto.Domain.csproj" />
   </ItemGroup>
 
